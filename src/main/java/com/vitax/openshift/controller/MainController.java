@@ -10,6 +10,6 @@ public class MainController {
 
     @RequestMapping(path = "/",method = RequestMethod.GET)
     public String sayHi(){
-        return "Hi, ";
+        return "Hi Tim, ";
     }
 }
